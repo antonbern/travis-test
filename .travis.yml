@@ -1,0 +1,8 @@
+language: php
+sudo: required
+git:
+  depth: 3
+php:
+- 7.2
+script:
+- 'grunt build-assets'
